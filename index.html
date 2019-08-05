@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
         integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-        <title>GIFTASTIC</title>
+    <title>GIFTASTIC</title>
 
 
 </head>
@@ -22,13 +22,25 @@
 
 <body>
 
+    <div class="container">
+        <h1></h1>
 
+        <!-- Rendered Buttons will get Dumped Here  -->
+        <div id="buttons-view"></div>
 
+        <form id="animal-form">
+            <label for="movie-input">Add an animal!</label>
+            <input type="text" id="movie-input">
+            <br>
 
+            <!-- Button triggers new movie to be added -->
+            <input id="add-animal" type="submit" value="Add an animal!!">
+        </form>
 
+        <!-- Movies will Get Dumped Here -->
+        <div id="animals-view"></div>
 
-
-    <script type="text/javascript" src="assets/js.js"></script>
+        <script type="text/javascript" src="assets/js.js"></script>
 
 
 </body>
