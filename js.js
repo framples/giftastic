@@ -66,6 +66,7 @@ function renderButtons() {
     for (var i = 0; i < animals.length; i++) {
 
         var a = $("<button>");
+        a.attr("type","button");
         // Adding a class to our button
         a.addClass("animal-btn");
         // Adding a data-attribute

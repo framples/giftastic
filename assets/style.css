@@ -26,8 +26,6 @@ form {
 
 }
 
-img {
-	margin-right: 10px;
-	margin-bottom: 10px;
+.jumbotron {
+    background: teal;
 }
-
