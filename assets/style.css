@@ -1,0 +1,33 @@
+body {
+	margin-top: 75px;
+	margin-bottom: 75px;
+  background: linear-gradient(to right, #D6DF23, #00ADEF);
+	text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+h1 {
+	font-family: 'Fredoka One', cursive;
+	font-size: 55px;
+	color: #fff;
+}
+
+
+form {
+    color: black;
+    font-size: 20px;
+}
+
+#animalView {
+    display: inline;
+    
+
+}
+
+img {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
