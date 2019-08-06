@@ -1,19 +1,10 @@
 body {
-	margin-top: 75px;
-	margin-bottom: 75px;
+	margin-top: 50px;
+	margin-bottom: 50x;
   background: linear-gradient(to right, #D6DF23, #00ADEF);
 	text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-
-
-
-h1 {
-	font-family: 'Fredoka One', cursive;
-	font-size: 55px;
-	color: #fff;
-}
-
 
 form {
     color: black;
